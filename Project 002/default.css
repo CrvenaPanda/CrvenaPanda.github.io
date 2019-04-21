@@ -1,0 +1,60 @@
+body {
+    padding: 0px 22% 0px 22%;
+    color: white; /* text color */
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+header {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: orange;
+}
+
+main {
+    background-color: darkblue;
+}
+
+input {
+    height: 30px;
+}
+
+select {
+    height: 35px;
+}
+
+label {
+}
+
+.block {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    align-items: center;
+    background-color: green;
+}
+
+.label-block {
+    display: block;
+    grid-column: 1;
+    text-align: right;
+}
+
+.input-block {
+    grid-column: 2;
+}
+
+.list-no-bullets {
+    list-style-type: none;
+}
+
+#title {
+    text-align: center;
+    font-size: 45px;
+}
+
+#submit {
+    display: block;
+    grid-column: 1 / 3;
+}
