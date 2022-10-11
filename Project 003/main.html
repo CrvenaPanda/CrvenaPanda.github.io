@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
+
+        <style>
+            body {
+                background-color: gainsboro;
+                margin: 0px;
+            }
+
+            hr {
+                background-color: white;
+                margin: auto;
+                width: 97%;
+                height: 1px;
+            }
+
+            p {
+                color: white;
+                font-size: 18px;
+                font-family: 'Poppins', sans-serif;
+                margin: 20px 8% 10px 8%;
+                line-height: 28px;
+                text-align: justify;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:visited {
+                color:orange;
+            }
+
+            a:link {
+                color: orange;
+            }
+
+            a:hover {
+                animation-name: size-increase;
+                animation-duration: 700ms;
+                animation-fill-mode: forwards;
+            }
+
+            @keyframes size-increase {
+                100% {
+                    color: orangered;
+                }
+            }
+
+            .main-div {
+                margin: auto;
+                background-color: black;
+                width: 60%;
+            }
+
+            .title {
+                color: white;
+                text-align: center;
+                font-size: 45px;
+                font-family: 'Poppins', sans-serif;
+                margin: 10px 0px 0px 0px;
+                animation-name: title-animations;
+            }
+
+            .head3 {
+                color: white;
+                text-align: left;
+                font-size: 26px;
+                font-family: 'Poppins', sans-serif;
+                margin: 10px 0px 0px 20px;
+                animation-name: title-animations;
+            }
+
+            .cover-image {
+                max-width: 100%;
+                display: flex;
+                height: auto;
+            }
+
+            .mirror-horizontal {
+                transform: rotate(180deg);
+            }
+
+            .center {
+                margin: auto;
+                margin: 10px,50px,10px,50px;
+                display: block;
+            }
+
+            .video {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+            }
+            .video-div {
+                position: relative;
+                overflow: hidden;
+                display: flex;
+                padding-top: 56.25%;
+            }
+
+            @media only screen and (max-width: 1366px){
+                .main-div {
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 26px;
+                }
+
+                .title {
+                    font-size: 55px;
+                }
+            }
+
+        </style>
+        <title>About me</title>
+    </head>
+    <body>
+        <main class="main-div">
+            <h2 class="title">About me:</h2>
+            <hr/>
+            <p>I am a game developer with professional experience in game development, gameplay and tools/editors. Working in C++, C#, and Python. I have experience with Unity and with in-house game engine.
+            </p>
+            <hr/>
+            <h3 class="head3">My experience:</h3>
+            <p>C++ Programmer in Playrix RS: &emsp; Dec 2019 - present</p>
+            <p>Unity Developer in Eipix Entertainment: &emsp; May 2019 - Dec 2019</p>
+
+            <hr/>
+            <h3 class="head3">Languages spoken:</h3>
+            <p>English</p>
+            <p>Serbian</p>
+            <p>Slovakian</p>
+
+            <hr/>
+            <h3 class="head3">Features I worked on:</h3>
+            <p>Input systems and UI.</p>
+            <p>GOAP AI system.</p>
+            <p>Gameplay stuff.</p>
+            <p>Editors and tools.</p>
+
+            <hr/>
+            <h3 class="head3">Links:</h3>
+            <p>
+                <a href="https://github.com/CrvenaPanda">GitHub</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/dusan-slivka-270915186/">LinkedIn</a>
+            </p>
+            <p>
+                <a href="https://www.instagram.com/duke.sli">Instagram</a>
+            </p>
+
+        </main>
+    </body>
+</html>
